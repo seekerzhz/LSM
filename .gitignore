@@ -1,0 +1,20 @@
+# 构建产物
+build/
+build-*/
+cmake-build-*/
+
+# 编辑器与工具链缓存
+.vscode/
+.idea/
+compile_commands.json
+*.swp
+
+# 运行时产生的数据库目录（跑测试、压测都会在这里落盘）
+*.db/
+*.sst
+*.ldb
+MANIFEST-*
+*.log
+
+# 系统垃圾
+.DS_Store
