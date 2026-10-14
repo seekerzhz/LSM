@@ -21,6 +21,7 @@ endif()
 # 核心库
 # ---------------------------------------------------------------------------
 add_library(lsm_core
+  src/coding.cc
   src/status.cc
 )
 target_include_directories(lsm_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
