@@ -24,6 +24,7 @@ add_library(lsm_core
   src/coding.cc
   src/crc32.cc
   src/env_posix.cc
+  src/log_writer.cc
   src/status.cc
 )
 target_include_directories(lsm_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
