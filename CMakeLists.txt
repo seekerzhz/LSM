@@ -28,6 +28,7 @@ add_library(lsm_core
   src/log_reader.cc
   src/log_writer.cc
   src/status.cc
+  src/write_batch.cc
 )
 target_include_directories(lsm_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(lsm_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
