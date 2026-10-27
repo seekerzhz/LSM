@@ -28,6 +28,7 @@ add_library(lsm_core
   src/iterator.cc
   src/log_reader.cc
   src/log_writer.cc
+  src/memtable.cc
   src/status.cc
   src/write_batch.cc
 )
