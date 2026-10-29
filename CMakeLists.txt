@@ -25,6 +25,7 @@ add_library(lsm_core
   src/crc32.cc
   src/dbformat.cc
   src/env_posix.cc
+  src/format.cc
   src/iterator.cc
   src/log_reader.cc
   src/log_writer.cc
