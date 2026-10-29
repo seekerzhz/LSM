@@ -21,6 +21,8 @@ endif()
 # 核心库
 # ---------------------------------------------------------------------------
 add_library(lsm_core
+  src/block.cc
+  src/block_builder.cc
   src/coding.cc
   src/crc32.cc
   src/dbformat.cc
