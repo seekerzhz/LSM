@@ -36,6 +36,7 @@ add_library(lsm_core
   src/memtable.cc
   src/merge_iterator.cc
   src/status.cc
+  src/table_builder.cc
   src/write_batch.cc
 )
 target_include_directories(lsm_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
