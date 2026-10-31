@@ -39,6 +39,7 @@ add_library(lsm_core
   src/table.cc
   src/table_builder.cc
   src/table_cache.cc
+  src/version.cc
   src/version_edit.cc
   src/write_batch.cc
 )
