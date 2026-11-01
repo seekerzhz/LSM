@@ -28,8 +28,10 @@ add_library(lsm_core
   src/compaction.cc
   src/compaction_iterator.cc
   src/crc32.cc
+  src/db_impl.cc
   src/dbformat.cc
   src/env_posix.cc
+  src/fault_env.cc
   src/filter_block.cc
   src/format.cc
   src/iterator.cc
