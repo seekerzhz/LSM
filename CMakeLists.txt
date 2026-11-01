@@ -87,6 +87,9 @@ endif()
 add_executable(varint_probe tools/varint_probe.cc)
 target_link_libraries(varint_probe PRIVATE lsm_core)
 
+add_executable(sst_dump tools/sst_dump.cc)
+target_link_libraries(sst_dump PRIVATE lsm_core)
+
 # ---------------------------------------------------------------------------
 # 三套构建的辅助信息
 # ---------------------------------------------------------------------------
