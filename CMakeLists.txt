@@ -26,6 +26,7 @@ add_library(lsm_core
   src/bloom.cc
   src/coding.cc
   src/compaction.cc
+  src/compaction_iterator.cc
   src/crc32.cc
   src/dbformat.cc
   src/env_posix.cc
