@@ -41,6 +41,7 @@ add_library(lsm_core
   src/table.cc
   src/table_builder.cc
   src/table_cache.cc
+  src/thread_safe.cc
   src/version.cc
   src/version_edit.cc
   src/version_set.cc
